@@ -14,11 +14,11 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-import com.framework.qa.common.SuiteData;
 import com.framework.qa.driver.browser.WebBrowser;
 import com.framework.qa.driver.capabilities.DriverCapabilities;
 import com.framework.qa.listeners.WebEventListener;
 import com.framework.qa.logger.Logger;
+import com.framework.qa.suitedata.SuiteData;
 import com.framework.qa.utils.FileHandlingUtils;
 import com.opera.core.systems.OperaDriver;
 

@@ -27,8 +27,8 @@ import org.openqa.selenium.interactions.Mouse;
 import org.openqa.selenium.interactions.TouchScreen;
 import org.openqa.selenium.logging.Logs;
 
-import com.framework.qa.common.SuiteData;
-import com.framework.qa.common.SuiteDataManager;
+import com.framework.qa.suitedata.SuiteData;
+import com.framework.qa.suitedata.SuiteDataManager;
 import com.framework.qa.webelement.BaseElement;
 
 /**

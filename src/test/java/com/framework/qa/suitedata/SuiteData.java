@@ -1,4 +1,4 @@
-package com.framework.qa.common;
+package com.framework.qa.suitedata;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.SessionId;

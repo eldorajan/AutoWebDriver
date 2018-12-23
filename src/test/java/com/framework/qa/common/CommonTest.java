@@ -11,6 +11,8 @@ import com.framework.qa.action.search.SearchAction;
 import com.framework.qa.driver.mode.WebDriverMode;
 import com.framework.qa.driver.runner.WebDriverRunner;
 import com.framework.qa.logger.Logger;
+import com.framework.qa.suitedata.SuiteData;
+import com.framework.qa.suitedata.SuiteDataManager;
 
 /**
  * 

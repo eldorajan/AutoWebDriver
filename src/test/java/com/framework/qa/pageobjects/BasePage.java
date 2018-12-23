@@ -3,10 +3,10 @@ package com.framework.qa.pageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import com.framework.qa.common.SuiteData;
-import com.framework.qa.common.SuiteDataManager;
 import com.framework.qa.pagefactory.utils.BrowserElementLocatorFactory;
 import com.framework.qa.pagefactory.utils.FieldDecorator;
+import com.framework.qa.suitedata.SuiteData;
+import com.framework.qa.suitedata.SuiteDataManager;
 
 /**
  * 

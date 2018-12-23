@@ -21,9 +21,9 @@ import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
-import com.framework.qa.common.SuiteData;
 import com.framework.qa.constants.FrameworkConstants;
 import com.framework.qa.logger.Logger;
+import com.framework.qa.suitedata.SuiteData;
 
 /**
  * 

@@ -1,4 +1,4 @@
-package com.framework.qa.common;
+package com.framework.qa.suitedata;
 
 import java.util.Map;
 
@@ -17,7 +17,7 @@ public class SuiteDataManager {
 	public Map<String, String> configData = null;
 	public static SuiteData suiteData = null;
 
-	SuiteDataManager() {
+	public SuiteDataManager() {
 		configData = FileHandlingUtils.readPropertyFile(FrameworkConstants.CONFIG_DB_FILE);
 	}
 

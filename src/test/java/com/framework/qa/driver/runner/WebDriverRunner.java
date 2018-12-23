@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.SessionId;
 
-import com.framework.qa.common.SuiteData;
 import com.framework.qa.driver.factory.WebDriverFactory;
 import com.framework.qa.driver.mode.WebDriverMode;
 import com.framework.qa.logger.Logger;
+import com.framework.qa.suitedata.SuiteData;
 
 /**
  * 

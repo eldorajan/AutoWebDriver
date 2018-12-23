@@ -15,9 +15,9 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariOptions;
 
-import com.framework.qa.common.SuiteData;
 import com.framework.qa.constants.FrameworkConstants;
 import com.framework.qa.driver.browser.WebBrowser;
+import com.framework.qa.suitedata.SuiteData;
 
 /**
  * 
