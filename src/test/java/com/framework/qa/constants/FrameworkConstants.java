@@ -41,6 +41,10 @@ public class FrameworkConstants {
 	public final static String PHANTOMJS_MAC_PATH = LIB_EXE_FOLDER + File.separator + "phantomjs";
 	public final static String GECKO_MAC_PATH = LIB_EXE_FOLDER + File.separator + "geckodriver";
 
+	public final static String CHROME_LINUX_PATH = LIB_EXE_FOLDER + File.separator + "chromedriver_linux";
+	public final static String PHANTOMJS_LINUX_PATH = LIB_EXE_FOLDER + File.separator + "phantomjs_linux";
+	public final static String GECKO_LINUX_PATH = LIB_EXE_FOLDER + File.separator + "geckodriver_linux";
+
 	public final static String DOWNLOADS_FOLDER = System.getProperty("user.home") + File.separator + "Downloads";
 	public final static String SCREENSHOT_PATH = System.getProperty("user.dir") + File.separator + "screenshots";
 

@@ -42,6 +42,10 @@ public class SuiteDataManager {
 			suiteData.setChromePath(FrameworkConstants.CHROME_MAC_PATH);
 			suiteData.setPhantomJSPath(FrameworkConstants.PHANTOMJS_MAC_PATH);
 			suiteData.setFirefoxPath(FrameworkConstants.GECKO_MAC_PATH);
+		} else if (suiteData.getOSName().contains("nix")) {
+			suiteData.setChromePath(FrameworkConstants.CHROME_LINUX_PATH);
+			suiteData.setPhantomJSPath(FrameworkConstants.PHANTOMJS_LINUX_PATH);
+			suiteData.setFirefoxPath(FrameworkConstants.GECKO_LINUX_PATH);
 		}
 
 		suiteData.setLoginUrl(getValue(testContext, "loginUrl", suiteData));
@@ -67,14 +71,16 @@ public class SuiteDataManager {
 	public String getValue(ITestContext testContext, String parameterName, SuiteData suiteData) {
 		return testContext.getCurrentXmlTest().getParameter(parameterName) != null
 				? testContext.getCurrentXmlTest().getParameter(parameterName).toString()
-				: (suiteData.getEnvName() != null ? configData.get(
-						new StringBuilder().append(suiteData.getEnvName()).append(".").append(parameterName).toString())
+				: (suiteData.getEnvName() != null
+						? configData.get(new StringBuilder().append(suiteData.getEnvName()).append(".")
+								.append(parameterName).toString())
 						: configData.get("default.".concat(parameterName)));
 	}
 
 	public String getValueXml(ITestContext testContext, String parameterName) {
 		return testContext.getCurrentXmlTest().getParameter(parameterName) != null
-				? testContext.getCurrentXmlTest().getParameter(parameterName).toString() : null;
+				? testContext.getCurrentXmlTest().getParameter(parameterName).toString()
+				: null;
 	}
 
 	public String getValue(ITestContext testContext, String parameterName) {
