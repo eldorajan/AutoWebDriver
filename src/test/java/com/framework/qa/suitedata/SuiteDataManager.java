@@ -42,7 +42,7 @@ public class SuiteDataManager {
 			suiteData.setChromePath(FrameworkConstants.CHROME_MAC_PATH);
 			suiteData.setPhantomJSPath(FrameworkConstants.PHANTOMJS_MAC_PATH);
 			suiteData.setFirefoxPath(FrameworkConstants.GECKO_MAC_PATH);
-		} else if (suiteData.getOSName().contains("nix")) {
+		} else if (suiteData.getOSName().contains("nix") || suiteData.getOSName().contains("nux")) {
 			suiteData.setChromePath(FrameworkConstants.CHROME_LINUX_PATH);
 			suiteData.setPhantomJSPath(FrameworkConstants.PHANTOMJS_LINUX_PATH);
 			suiteData.setFirefoxPath(FrameworkConstants.GECKO_LINUX_PATH);

@@ -40,7 +40,7 @@ public class WebDriverFactory {
 			System.setProperty("webdriver.gecko.driver", suiteData.getFirefoxPath());
 			if (suiteData.getOSName().contains("mac")) {
 				FileHandlingUtils.makeDriverExectuable(suiteData.getFirefoxPath());
-			} else if (suiteData.getOSName().contains("nix")) {
+			} else if (suiteData.getOSName().contains("nix") || suiteData.getOSName().contains("nux")) {
 				FileHandlingUtils.makeDriverExectuable(suiteData.getFirefoxPath());
 			}
 			driver = new FirefoxDriver(new DriverCapabilities().getFireFoxOptions(suiteData));
