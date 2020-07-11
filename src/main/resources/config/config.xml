@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>Framework Configurations</comment>
+
+    <entry key="qa.loginUrl">https://www.google.com/</entry>
+    <entry key="qa.dashboardUrl">https://www.google.com/</entry>
+    <entry key="qa.apiServerHost">api.google.com</entry>
+    <entry key="qa.host">google</entry>
+    <entry key="qa.referer">https://www.google.com</entry>
+    <entry key="qa.scheme">https</entry>
+    <entry key="qa.port"></entry>
+    <entry key="qa.networkProxyType"></entry>
+    <entry key="qa.networkProxyUrl"></entry>
+
+    <entry key="stage.loginUrl">https://www.google.com/</entry>
+    <entry key="stage.dashboardUrl">https://www.google.com/</entry>
+    <entry key="stage.apiServerHost">api.google.com</entry>
+    <entry key="stage.host">google</entry>
+    <entry key="stage.referer">https://www.google.com</entry>
+    <entry key="stage.scheme">https</entry>
+    <entry key="stage.port"></entry>
+    <entry key="stage.networkProxyType"></entry>
+    <entry key="stage.networkProxyUrl"></entry>
+
+    <entry key="prod.loginUrl">https://www.google.com/</entry>
+    <entry key="prod.dashboardUrl">https://www.google.com/</entry>
+    <entry key="prod.apiServerHost">api.google.com</entry>
+    <entry key="prod.host">google</entry>
+    <entry key="prod.referer">https://www.google.com</entry>
+    <entry key="prod.scheme">https</entry>
+    <entry key="prod.port"></entry>
+    <entry key="prod.networkProxyType"></entry>
+    <entry key="prod.networkProxyUrl"></entry>
+
+    <entry key="apiBaseVersion">v1</entry>
+    <entry key="extensionVersionName"></entry>
+    <entry key="extensionVersionValue"></entry>
+    <entry key="extensionVersionPath"></entry>
+
+    <entry key="default.browserName">chrome</entry>
+    <entry key="default.webdriverMode">local</entry>
+    <entry key="default.eventFiringWebDriver">true</entry>
+    <entry key="default.headlessMode">false</entry>
+
+    <entry key="default.loginUrl">https://www.google.com/</entry>
+    <entry key="default.dashboardUrl">https://www.google.com/</entry>
+    <entry key="default.apiServerHost">api.google.com</entry>
+    <entry key="default.host">google</entry>
+    <entry key="default.referer">https://www.google.com</entry>
+    <entry key="default.scheme">https</entry>
+    <entry key="default.port"></entry>
+    <entry key="default.networkProxyUrl"></entry>
+    <entry key="default.networkProxyType"></entry>
+
+</properties>

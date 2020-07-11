@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Sanity">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.framework.qa.listeners.SuiteListener"/>
+        <listener class-name="com.framework.qa.listeners.MethodListener"/>
+        <listener class-name="com.framework.qa.listeners.ScreenShotListener"/>
+    </listeners>
+
+    <test name="Sample Tests on Local Firefox">
+        <parameter name="envName" value="qa"/>
+        <parameter name="webdriverMode" value="local"/>
+        <parameter name="browserName" value="firefox"/>
+        <parameter name="headlessMode" value="true"/>
+        <parameter name="eventFiringWebDriver" value="true"/>
+        <classes>
+            <class name="com.framework.qa.tests.SampleTest">
+                <methods>
+                    <include name="TestGoogle"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Sample Tests on Local Chrome">
+        <parameter name="envName" value="qa"/>
+        <parameter name="webdriverMode" value="local"/>
+        <parameter name="browserName" value="chrome"/>
+        <parameter name="headlessMode" value="true"/>
+        <parameter name="eventFiringWebDriver" value="true"/>
+        <classes>
+            <class name="com.framework.qa.tests.SampleTest">
+                <methods>
+                    <include name="TestGoogle"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
