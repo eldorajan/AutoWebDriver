@@ -23,7 +23,7 @@
         <testComponent>${smokeComponent}</testComponent>
         <testSuite>${smokeSuite}</testSuite>
         <selenium-version>4.0.0-alpha-6</selenium-version>
-        <appium-version>7.3.0</appium-version>
+        <appium-version>7.6.0</appium-version>
     </properties>
 
 
